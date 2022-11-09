@@ -1,0 +1,21 @@
+//Human Age
+let myAge = 100;
+let earlyYears = 2;
+
+earlyYears = earlyYears * 10.5;
+//already subtracted 2 years from my age above
+laterYears = myAge - 2;
+
+//laterYears *= 4;
+laterYears = laterYears * 4;
+console.log(`earlyYears: ${earlyYears}, laterYears: ${laterYears}`);
+
+// combining the first 2 years, plus the rest of your life
+let myAgeInDogYears = earlyYears + laterYears;
+//print my name in lowercase
+let me = "Rich Davis";
+let myName = me.toLowerCase();
+
+//my name in dog years
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+

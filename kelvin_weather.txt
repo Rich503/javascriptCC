@@ -19,3 +19,4 @@ console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
 console.log(`The temperature is ${newton} degrees Newton`);
 
 //test of javasciptCC
+//test of javasciptCC#2

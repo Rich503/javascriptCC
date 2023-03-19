@@ -1,0 +1,33 @@
+let input = "turpentine and turtles";
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+let resultArray = [];
+let resultString;
+
+console.log (input);
+for (let letter = 0; letter < input.length; letter++)
+{
+  //console.log(letter);
+  if (input[letter] === 'e')
+  {
+    resultArray.push(input[letter]);
+    //resultArray.push(input[letter]);
+  }
+  if (input[letter] === 'u')
+  {
+    resultArray.push(input[letter]);
+    //resultArray.push(input[letter]);
+  }
+  for (vowelLetter = 0; vowelLetter < vowels.length; vowelLetter++)
+  {
+    //console.log(vowelLetter);
+    if (input[letter] === vowels[vowelLetter])
+    {
+      //console.log(vowels[vowelLetter]);
+      resultArray.push(vowels[vowelLetter]);
+    }
+  }
+}
+//console.log(resultArray);
+resultString = resultArray.join('').toUpperCase();
+console.log(resultString);
+
